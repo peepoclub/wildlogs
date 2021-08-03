@@ -30,7 +30,7 @@ client.on("PRIVMSG", async (e) => {
   });
 });
 
-// Connect to channels
+// Connect to Twitch
 client.connect();
 
 // Join to channels
