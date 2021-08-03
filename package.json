@@ -1,0 +1,20 @@
+{
+  "name": "logs",
+  "version": "1.0.0",
+  "description": "twitch logs",
+  "main": "index.js",
+  "author": "rilaveon",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "prisma": "2.28.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "2.28.0",
+    "dank-twitch-irc": "^4.3.0"
+  }
+}

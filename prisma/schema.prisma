@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model logs {
+  id          BigInt  @id @default(autoincrement())
+  channel     String? @db.VarChar(50)
+  channelID   String? @db.VarChar(50)
+  name        String? @db.VarChar(50)
+  displayName String? @db.VarChar(50)
+  userID      String? @db.VarChar(50)
+  message     String? @db.VarChar(1500)
+  tags        String? @db.VarChar(5000)
+  timestamp   BigInt?
+}
