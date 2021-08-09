@@ -4,7 +4,7 @@
   "description": "twitch logs",
   "main": "index.js",
   "author": "rilaveon",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "type": "module",
   "private": true,
   "devDependencies": {
