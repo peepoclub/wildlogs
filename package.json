@@ -1,7 +1,7 @@
 {
-  "name": "logs",
+  "name": "wildlogs",
   "version": "1.0.0",
-  "description": "twitch logs",
+  "description": "simple twitch logs",
   "main": "index.js",
   "author": "rilaveon",
   "license": "GPL-3.0",
