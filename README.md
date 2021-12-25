@@ -1,6 +1,6 @@
-# Twitch Simple Logs
+# Wildlogs
 
-Simple log app on JavaScript
+Simple Twitch log app on JavaScript
 
 ## Requirements
 
