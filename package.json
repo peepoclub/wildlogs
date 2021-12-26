@@ -1,20 +1,20 @@
 {
   "name": "wildlogs",
-  "version": "1.0.0",
-  "description": "simple twitch logs",
+  "version": "1.1.0",
+  "description": "Simple twitch logs",
   "main": "index.js",
   "author": "rilaveon",
   "license": "GPL-3.0",
   "type": "module",
   "private": true,
   "devDependencies": {
-    "prisma": "2.28.0"
+    "prisma": "3.7.0"
   },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@prisma/client": "2.28.0",
+    "@prisma/client": "3.7.0",
     "dank-twitch-irc": "^4.3.0"
   }
 }
